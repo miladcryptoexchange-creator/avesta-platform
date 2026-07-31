@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Avesta - Telegram Mini App</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <h1>AVN</h1>
+            <p>Avesta Platform</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="balance-card">
+                <p class="label">AVN Balance</p>
+                <p class="balance">0.00000000</p>
+                <p class="usd">≈ $0.00</p>
+            </div>
+            
+            <div class="actions-grid">
+                <button class="action-btn" onclick="startMining()">
+                    <span class="icon">⛏️</span>
+                    <span>Mining</span>
+                </button>
+                <button class="action-btn" onclick="openWallet()">
+                    <span class="icon">💰</span>
+                    <span>Wallet</span>
+                </button>
+                <button class="action-btn" onclick="openNFT()">
+                    <span class="icon">🎨</span>
+                    <span>NFT</span>
+                </button>
+                <button class="action-btn" onclick="luckySpin()">
+                    <span class="icon">🎰</span>
+                    <span>Spin</span>
+                </button>
+            </div>
+            
+            <div class="mining-section" id="miningSection" style="display: none;">
+                <div class="timer" id="timer">24:00:00</div>
+                <button class="boost-btn" onclick="watchAd()">Watch Ad (+2%)</button>
+                <p class="boost-info">Boost: <span id="boostPercent">0</span>%</p>
+            </div>
+        </main>
+        
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active">
+                <span class="icon">🏠</span>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">💰</span>
+                <span>Wallet</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">⛏️</span>
+                <span>Mine</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">🎁</span>
+                <span>Rewards</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="icon">👤</span>
+                <span>Profile</span>
+            </a>
+        </nav>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
