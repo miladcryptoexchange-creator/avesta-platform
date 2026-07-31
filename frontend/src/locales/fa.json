@@ -1,0 +1,19 @@
+{
+  "welcome": "به پلتفرم آوستا خوش آمدید",
+  "login": "ورود",
+  "register": "ثبت نام",
+  "wallet": "کیف پول",
+  "mining": "ماینینگ",
+  "staking": "استیکینگ",
+  "governance": "حاکمیت",
+  "nft": "بازار NFT",
+  "referral": "رفرال",
+  "balance": "موجودی",
+  "send": "ارسال",
+  "receive": "دریافت",
+  "start_mining": "شروع ماینینگ",
+  "claim_reward": "دریافت پاداش",
+  "watch_ad": "تماشای تبلیغ",
+  "lucky_spin": "چرخ شانس",
+  "connect_wallet": "اتصال کیف پول"
+}
