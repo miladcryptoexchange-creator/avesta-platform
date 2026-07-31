@@ -1,6 +1,5 @@
 """
 Avesta Platform - Main Application
-FastAPI Backend Entry Point
 """
 
 from fastapi import FastAPI
@@ -34,7 +33,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Routers
 app.include_router(auth.router, prefix="/api/auth", tags=["Auth"])
 app.include_router(users.router, prefix="/api/users", tags=["Users"])
 app.include_router(wallet.router, prefix="/api/wallet", tags=["Wallet"])
