@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-avesta-dark text-white;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl;
+  }
+  
+  .neon-glow {
+    @apply shadow-[0_0_20px_rgba(138,43,226,0.5)];
+  }
+  
+  .gold-accent {
+    @apply text-avesta-gold;
+  }
+}
