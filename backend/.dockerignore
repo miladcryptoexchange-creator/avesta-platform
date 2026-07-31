@@ -1,0 +1,20 @@
+# Ignore files that should not be copied into the Docker image
+venv/
+.env
+.env.*
+__pycache__/
+*.py[cod]
+*.so
+*.sqlite3
+*.db
+*.log
+.pytest_cache/
+coverage/
+htmlcov/
+*.egg-info/
+*.dist-info/
+build/
+node_modules/
+.git
+*.pem
+*.key
