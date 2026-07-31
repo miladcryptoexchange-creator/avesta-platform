@@ -22,3 +22,6 @@ COMMANDS = {
     'help': {
         'description': 'Show help message',
         'handler': '
+        'help_command'
+    }
+}
