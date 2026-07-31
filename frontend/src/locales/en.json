@@ -1,0 +1,19 @@
+{
+  "welcome": "Welcome to Avesta Platform",
+  "login": "Login",
+  "register": "Register",
+  "wallet": "Wallet",
+  "mining": "Mining",
+  "staking": "Staking",
+  "governance": "Governance",
+  "nft": "NFT Marketplace",
+  "referral": "Referral",
+  "balance": "Balance",
+  "send": "Send",
+  "receive": "Receive",
+  "start_mining": "Start Mining",
+  "claim_reward": "Claim Reward",
+  "watch_ad": "Watch Ad",
+  "lucky_spin": "Lucky Spin",
+  "connect_wallet": "Connect Wallet"
+}
