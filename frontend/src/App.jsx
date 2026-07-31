@@ -1,20 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Dashboard from './pages/Dashboard'
-import Wallet from './pages/Wallet'
-import Mining from './pages/Mining'
-import Transactions from './pages/Transactions'
-import Referral from './pages/Referral'
-import Staking from './pages/Staking'
-import Governance from './pages/Governance'
-import Profile from './pages/Profile'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import NFTMarketplace from './pages/NFTMarketplace'
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/wallet" element={<Wallet />} />
+          <Route path="/mining" element={<Mining />} />
+          <Route path="/transactions" element={<Transactions />} />
+          <Route path="/referral" element={<Referral />} />
+          <Route path="/staking" element={<Staking />} />
+          <Route path="/governance" element={<Governance />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/nft" element={<NFTMarketplace />} />
+        </Routes>
+      </div>
+    </Router>
+  )
+}
 
-function App() {
-  return (
-    <Router>
-      <div className="min-h-screen bg-avesta-dark text-white">
-        <Navbar />
-       
+export default App
